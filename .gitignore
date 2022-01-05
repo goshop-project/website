@@ -1,6 +1,9 @@
 # Node.js dependencies
 node_modules
 
+# Hugo's output
+/public
+
 # Binaries for programs and plugins
 *.exe
 *.exe~

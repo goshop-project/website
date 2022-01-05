@@ -1,0 +1,25 @@
+{
+  "name": "goshop-website",
+  "version": "0.0.1",
+  "description": "hugo based goshop.dev site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goshop-project/website.git"
+  },
+  "author": "Alejandro Mery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goshop-project/website/issues"
+  },
+  "homepage": "https://github.com/goshop-project/website#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.1",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.11"
+  }
+}

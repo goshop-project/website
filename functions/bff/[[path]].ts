@@ -31,7 +31,9 @@ export const onRequestGet = async ({ request }) => {
 `
 
   console.log(body)
-  return new Response(body)
+  return new Response(body, {
+    headers: { "Content-Type": "text/html" },
+  })
 }
 
 export const onRequestHead = onRequestGet
